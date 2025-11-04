@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- سئو: عنوان جذاب با تاکید بر هر دو شماره -->
+    <title>امداد خودرو ایران خودرو | حمل و تعمیر 24 ساعته | 09211376264 و 09305814690</title>
+    
+    <!-- سئو: تگ‌های توضیحات متا با ذکر هر دو شماره -->
+    <meta name="description" content="امداد خودرو ایران خودرو به صورت شبانه‌روزی (24 ساعته) در محل. حمل خودرو و تعمیرات طبق نرخ‌نامه رسمی در کل کشور. جهت تماس سریع: 09211376264 یا 09305814690">
+    <meta name="keywords" content="امداد خودرو ایران خودرو, حمل خودرو, تعمیر در محل, امداد 24 ساعته, خدمات خودرویی, 09211376264, 09305814690, امداد در کل کشور">
+    
+    <meta name="robots" content="index, follow">
+
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('نیسان1-min-1024x768.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            position: relative;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.75);
+            padding: 40px 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+            max-width: 900px;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 15px;
+            color: #ffcc00;
+            text-shadow: 3px 3px 6px #000000;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0.3;
+            }
+        }
+
+        .blinking-text {
+            animation: blinker 1.2s linear infinite;
+            font-size: 1.8em;
+            margin-bottom: 25px;
+            color: #ff0000;
+            text-shadow: 0 0 10px #ff0000;
+            font-weight: 900;
+        }
+
+        .phone-section {
+            margin-bottom: 25px;
+            display: flex; /* استفاده از فلکس برای مرتب‌سازی افقی */
+            flex-direction: column; /* مرتب‌سازی عمودی */
+            align-items: center; /* وسط‌چین کردن شماره‌ها */
+        }
+
+        .phone-container, .phone-container-secondary {
+            background-color: #e74c3c; /* رنگ قرمز برای هر دو */
+            padding: 15px 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.7);
+            margin-bottom: 10px; /* فاصله 10 پیکسلی زیر هر شماره */
+            width: 80%; /* عرض یکسان برای هر دو */
+            max-width: 350px; /* محدودیت عرض برای زیبایی */
+        }
+        
+        .phone-container a, .phone-container-secondary a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 2.2em; /* اندازه فونت یکسان */
+            font-weight: bold;
+            display: block;
+            letter-spacing: 1px;
+        }
+        
+        .details {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>امداد خودرو ایران خودرو</h1>
+        
+        <p class="blinking-text">
+            حمل و تعمیر خودرو در محل 24 ساعته طبق نرخ نامه در کل کشور
+        </p>
+        
+        <div class="phone-section">
+            <!-- شماره اول: 09211376264 -->
+            <div class="phone-container">
+                <a href="tel:09211376264">09211376264</a>
+            </div>
+            <!-- شماره دوم: 09305814690 -->
+            <div class="phone-container-secondary">
+                <a href="tel:09305814690">09305814690</a>
+            </div>
+        </div>
+
+        <p class="details">
+            جهت درخواست خدمات فوری، با شماره‌های بالا تماس حاصل فرمایید.
+        </p>
+    </div>
+</body>
+</html>
